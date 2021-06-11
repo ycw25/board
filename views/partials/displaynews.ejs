@@ -1,0 +1,10 @@
+<% if (blogs.length >0 ) { %>
+    <% blogs.forEach(blogs => { %>
+        <p>
+            <%= blogs.title %> 說： </p>
+        <p>
+            <%= blogs.content %>
+        </p>
+        <img src="line.png" class="line">
+        <% }) %>
+            <% } %>
